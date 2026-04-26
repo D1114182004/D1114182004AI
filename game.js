@@ -121,8 +121,14 @@ function restartGame() {
     init();
 }
 
-startGame();
+let started = false;
 
+document.getElementById("startBtn").addEventListener("click", () => {
+    if (!started) {
+        startGame();
+        started = true;
+    }
+});
 
 /*✔ 不會提前死
 
