@@ -1,0 +1,17 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  
+  <!-- 背景圓 -->
+  <circle cx="60" cy="60" r="55" fill="#222"/>
+
+  <!-- 蛇身 -->
+  <path d="M30 70 C40 30, 80 30, 90 70" 
+        stroke="lime" stroke-width="10" fill="none" 
+        stroke-linecap="round"/>
+
+  <!-- 蛇頭 -->
+  <circle cx="30" cy="70" r="8" fill="lime"/>
+
+  <!-- 食物 -->
+  <circle cx="85" cy="40" r="6" fill="red"/>
+
+</svg>
